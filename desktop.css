@@ -1,0 +1,109 @@
+/* css for desktop */
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+/* header strat */
+.nav{
+    flex-direction: row;
+    margin-top: auto;
+}
+
+
+.nav a{
+    margin: 0 25px;
+    background-color:transparent;
+}
+
+.icon{
+    display: block;
+    margin-left: 45px;
+    font-size: 1.5rem;
+}
+.search-icon a{
+   display: block;
+}
+
+/* header end */
+
+/* banner-image start */
+.banner-content{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+.banner-content h2,p{
+    font-size: 1.8rem;
+} 
+/* banner-image end */
+
+/* brand start */
+.brand-team{
+   display: flex;
+   flex-direction: row; 
+}
+
+.team1{
+    padding:0 20px;
+ }
+
+ .team1 img{
+    width: 100%;
+    margin: auto;
+ }
+/* brand end */
+
+/* tour start */
+.tour-list{
+    max-width: 800px;
+    margin: auto;
+}
+
+.tour-addres{
+    margin: auto;
+}
+
+.tour-addres{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.new-york:last-child{
+    margin: 0 0 0 10px;
+}
+.new-york:nth-child(1){
+    margin: 0 10px 0 0; 
+}
+
+/* tour end */
+
+/* contact start */
+.contact-info{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.half:nth-child(1){
+    margin-right:3px;
+   
+}
+.half{
+    float: left;
+    width:49.5%;
+  
+}
+
+
+/* contact end */
